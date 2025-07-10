@@ -1,1 +1,66 @@
 /* Custom style untuk Garut Kulit */
+/* Offcanvas mobile menu custom */
+@media (max-width: 991.98px) {
+    .offcanvas.offcanvas-start {
+        border-radius: 0 !important;
+        width: 300px;
+        max-width: 90vw;
+        padding-top: 1.5rem;
+    }
+
+    .offcanvas-header {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 0.5rem;
+    }
+
+    .offcanvas-body {
+        padding-top: 0.5rem;
+    }
+
+    .offcanvas .dropdown-menu {
+        position: static !important;
+        float: none;
+        box-shadow: none;
+        border: none;
+        background: transparent;
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .offcanvas .dropdown-item {
+        padding-left: 0.5rem;
+        color: #333;
+    }
+
+    .navbar-toggler.d-lg-none {
+        display: inline-block !important;
+    }
+
+    .navbar-toggler.d-none.d-lg-block {
+        display: none !important;
+    }
+
+    .offcanvas .list-unstyled>li>a,
+    .offcanvas .dropdown-toggle,
+    .offcanvas .dropdown-menu .dropdown-item,
+    .offcanvas .list-unstyled a {
+        color: #222 !important;
+        text-decoration: none !important;
+        font-weight: 500;
+        font-size: 1.08rem;
+        background: none !important;
+    }
+
+    .offcanvas .list-unstyled>li>a:hover,
+    .offcanvas .dropdown-menu .dropdown-item:hover,
+    .offcanvas .dropdown-toggle:hover {
+        background: #f3f3f3 !important;
+        color: #000 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler.d-lg-none {
+        display: none !important;
+    }
+}

@@ -2,25 +2,33 @@
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
-
-<div class="container my-5">
-  <h1 class="mb-4 fw-bold">Blog</h1>
-  <div class="row g-4">
-    <?php for($i=1;$i<=3;$i++): ?>
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/400x200?text=Blog+<?= $i ?>" class="card-img-top" alt="Blog <?= $i ?>">
-        <div class="card-body">
-          <h5 class="card-title">Judul Artikel <?= $i ?></h5>
-          <p class="card-text">Ini adalah ringkasan singkat artikel blog ke-<?= $i ?> tentang produk kulit, tips perawatan, atau inspirasi fashion.</p>
-          <a href="#" class="btn btn-outline-dark">Baca Selengkapnya</a>
-        </div>
+<section class="container my-5">
+  <h2 class="mb-4 text-center" style="font-weight:700; letter-spacing:1px;">Blog Garut Kulit</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action mb-3">
+          <h5 class="mb-1">Cara Merawat Jaket Kulit Asli</h5>
+          <small class="text-muted">10 Juni 2024</small>
+          <p class="mb-1">Tips dan trik merawat jaket kulit agar tetap awet, lentur, dan tidak mudah retak.</p>
+          <span class="btn btn-sm btn-outline-dark">Baca Selengkapnya</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action mb-3">
+          <h5 class="mb-1">Inspirasi Fashion Kulit untuk Wanita</h5>
+          <small class="text-muted">5 Juni 2024</small>
+          <p class="mb-1">Rekomendasi outfit dan aksesoris kulit yang cocok untuk berbagai gaya wanita modern.</p>
+          <span class="btn btn-sm btn-outline-dark">Baca Selengkapnya</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action mb-3">
+          <h5 class="mb-1">Perbedaan Kulit Asli dan Kulit Sintetis</h5>
+          <small class="text-muted">1 Juni 2024</small>
+          <p class="mb-1">Kenali ciri-ciri kulit asli dan kulit sintetis agar tidak salah pilih saat belanja produk kulit.</p>
+          <span class="btn btn-sm btn-outline-dark">Baca Selengkapnya</span>
+        </a>
       </div>
     </div>
-    <?php endfor; ?>
   </div>
-</div>
-
+</section>
 <?php
 include 'includes/footer.php';
 ?> 

@@ -2,26 +2,33 @@
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
-
-<div class="container my-5">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <h1 class="mb-4 fw-bold">About Us</h1>
-      <p><b>CV GARUT KULIT INTERNATIONAL</b></p>
-      <p>Thoughtfully crafted by local Indonesian leather artisans. Kami adalah produsen dan penjual produk kulit asli Garut, mulai dari jaket, tas, dompet, hingga souvenir corporate. Kami berkomitmen menghadirkan produk berkualitas, desain eksklusif, dan layanan terbaik untuk pelanggan di seluruh Indonesia dan dunia.</p>
-      <h4 class="mt-5">Visi</h4>
-      <p>Menjadi brand kulit asli Indonesia yang mendunia dan terpercaya.</p>
-      <h4>Misi</h4>
+<section class="container my-5">
+  <h2 class="mb-4 text-center" style="font-weight:700; letter-spacing:1px;">About Garut Kulit</h2>
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-8 text-center">
+      <p class="lead">Garut Kulit adalah brand asli Indonesia yang memproduksi produk kulit berkualitas tinggi, mulai dari jaket, tas, dompet, hingga aksesoris. Kami mengutamakan kualitas bahan, desain, dan pengerjaan oleh pengrajin lokal terbaik.</p>
+    </div>
+  </div>
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-6">
+      <h5 class="fw-bold">Visi</h5>
+      <p>Menjadi brand kulit asli Indonesia yang mendunia dan dipercaya konsumen global.</p>
+      <h5 class="fw-bold mt-3">Misi</h5>
       <ul>
-        <li>Mengutamakan kualitas dan keaslian bahan kulit.</li>
+        <li>Menghadirkan produk kulit berkualitas dan inovatif.</li>
         <li>Mendukung pengrajin lokal dan UMKM.</li>
-        <li>Menghadirkan inovasi desain produk kulit.</li>
-        <li>Melayani pelanggan dengan sepenuh hati.</li>
+        <li>Mengedepankan kepuasan pelanggan.</li>
+      </ul>
+      <h5 class="fw-bold mt-3">Keunggulan Kami</h5>
+      <ul>
+        <li>Bahan kulit asli pilihan.</li>
+        <li>Desain eksklusif dan custom.</li>
+        <li>Harga bersaing langsung dari produsen.</li>
+        <li>Garansi dan layanan purna jual.</li>
       </ul>
     </div>
   </div>
-</div>
-
+</section>
 <?php
 include 'includes/footer.php';
 ?> 
